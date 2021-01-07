@@ -9,4 +9,5 @@ Steps:
 2. Rename 'package' directory to the new package name
 3. Change all occurences of 'package' in .github/workflows/main.yml to the new package name
 4. Go to [codecov.io](https://codecov.io/), add this repo, then click setting->badge and copy the markdown code for the badge. Paste that above.
-5. You can then install the package in edit mode (optionally with the `interactive flag`)  by cloning the repo, and running `pip install -e .[interactive]`
+5. Also change the build badge link above so that 'python-package' is the name of this repo
+6. You can then install the package in edit mode (optionally with the `interactive flag`)  by cloning the repo, and running `pip install -e .[interactive]`
